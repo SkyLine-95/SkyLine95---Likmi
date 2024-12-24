@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Tombol Multibahasa</title>
+<meta charset="utf-8">
+<style type="text/css">
+body {
+	background-image: url(WhatsApp%20Image%202024-10-27%20at%2020.47.41.jpeg);
+}
+body,td,th {
+    color: #FFFFFF;
+    font-size: 24px;
+}
+a:link {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+a:hover {
+    color: #B5B5B5;
+    text-decoration: none;
+}
+a:visited {
+    text-decoration: none;
+    color: #FF0004;
+}
+a:active {
+    text-decoration: none;
+}
+</style>
+</head>
+<body>
+<table width="100%" border="0">
+  <tbody>
+    <tr>
+      <th width="6%" scope="col"><img src="SKY.png" width="218" height="140" alt=""/></th>
+      <th width="6%" scope="col"><a href="Web gw.html">Home</a></th>
+      <th width="12%" scope="col"><a href="About me.html">Profile</a></th>
+      <th width="53%" style="color: #FFFFFF" scope="col"><a href="Portofolio.html">Portofolio</a></th>
+      <th style="color: #FFFFFF" scope="col"><a href="Ask Me.html">Ask Me</a></th>
+    </tr>
+  </tbody>
+</table>
+<div id="content"></div>
+<div class="NavBar">
+  
+</div>
+<table width="100%" border="0">
+  <tbody>
+    <tr>
+      <td width="18%" rowspan="2"><img src="pp.png" alt="" width="158" height="120"/></td>
+      <td width="32%" height="71"><p>Eugene Farrel Hwan</p></td>
+      <td width="50%" rowspan="2"><p>Profile : </p>
+        <p>
+          <button id="language-toggle">Bahasa Indonesia</button>
+        </p>
+        <div id="content2">
+          <p>Klik tombol diatas untuk menampilkan dan ubah bahasa!</p>
+			<script>
+        // JavaScript untuk mengelola pergantian bahasa
+        const languageToggle = document.getElementById('language-toggle');
+        const content = document.getElementById('content');
+        let currentLanguage = 'id'; // Bahasa awal (id = Indonesia)
+
+        const translations = {
+            id: {
+                button: 'Bahasa Inggris',
+                content: 'I, Eugene Farrel Hwan, am a new graduate of SMAK 3 BPK PENABUR Bandung in 2024 and am currently studying in the Informatics Software Engineering department. My interest in the world of technology, especially programming, has taken me to a higher level of education. The learning experience at SMAK 3 has equipped me with a strong foundation in computer science, as well as fostered an interest in continuing to explore various technological concepts and applications. By choosing the Informatics major, I hope to develop my abilities in designing, building, and managing innovative software systems.'
+            },
+            en: {
+                button: 'Bahasa Indonesia',
+                content: 'Saya, Eugene Farrel Hwan, merupakan lulusan baru SMAK 3 BPK PENABUR Bandung tahun 2024 dan saat ini tengah menempuh studi di jurusan Informatika Software Engineering. Ketertarikan saya pada dunia teknologi, khususnya pemrograman, telah membawa saya ke jenjang pendidikan yang lebih tinggi. Pengalaman belajar di SMAK 3 telah membekali saya dengan dasar-dasar ilmu komputer yang kuat, serta menumbuhkan minat untuk terus menggali lebih dalam mengenai berbagai konsep dan aplikasi teknologi. Dengan memilih jurusan Informatika, saya berharap dapat mengembangkan kemampuan saya dalam merancang, membangun, dan mengelola sistem perangkat lunak yang inovatif.'
+            }
+        };
+
+        languageToggle.addEventListener('click', () => {
+            // Ganti bahasa
+            currentLanguage = currentLanguage === 'id' ? 'en' : 'id';
+            languageToggle.textContent = translations[currentLanguage].button;
+            content.textContent = translations[currentLanguage].content;
+        });
+			</script>
+        </div></td>
+    </tr>
+    <tr>
+      <td><img src="WhatsApp Image 2024-12-23 at 23.44.47.jpeg" width="384" height="380" alt=""/></td>
+    </tr>
+    <tr>
+      <td height="45" colspan="3"><p><a href="https://maps.app.goo.gl/W65y6e4DGywGhMuf8" target="new"><img src="pngegg (1).png" width="30" height="24" alt=""/></a><span style="font-size: 24px"><a href="https://maps.app.goo.gl/W65y6e4DGywGhMuf8" target="new">: <span style="font-size: 36px">Komplek Permata Cimahi, Jalan Rubi Raya R2 no 7</span></a><span style="font-size: 16px"></span></span></p>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3961.229430473261!2d107.519736!3d-6.863085099999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e68e48ec6b9ebab%3A0xa2036a131bd9aa6d!2sJl.%20Ruby%20Raya%20No.7%2C%20Tanimulya%2C%20Kec.%20Ngamprah%2C%20Kabupaten%20Bandung%20Barat%2C%20Jawa%20Barat%2040552!5e0!3m2!1sen!2sid!4v1734182598998!5m2!1sen!2sid" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p></td>
+    </tr>
+    <tr>
+      <td height="27" colspan="2">&nbsp;</td>
+      <td height="27"><a href="https://mail.google.com/mail/u/0/#inbox" target="new"><img src="—Pngtree—inbox mail icon email logo_3730756.png" width="33" height="25" alt=""/></a> <span style="font-size: 18px"><a href="https://mail.google.com/mail/u/0/#inbox" target="new">: eugenefarrel76@gmail.com</a></span></td>
+    </tr>
+    <tr>
+      <td height="76"><p>Bahasa : </p>
+        <ul>
+          <li>Indonesia</li>
+          <li>Mandarin</li>
+          <li>Inggris</li>
+        </ul></td>
+      <td height="76"><p>Hobby : </p>
+        <ul>
+          <li>Riding</li>
+          <li> Main Games</li>
+          <li> Fitness</li>
+          <li>Edit Video</li>
+        </ul></td>
+      <td><a href="tps://wa.me/+6285223563022" target="new"><img src="pngwing.com.png" width="29" height="29" alt=""/></a> <a href="tps://wa.me/+6285223563022" target="new">: 085223563022</a></td>
+    </tr>
+    <tr>
+      <td height="183"><p>&nbsp;</p></td>
+      <td height="183"><p>Pendidikan :</p>
+        <ul>
+          <li>SDK BPK Penabur Cimahi (2012-2018)</li>
+          <li>SMPK BPK Penabur Cimahi (2018-2021)</li>
+          <li>SMAK3 BPK Penabur Bandung (2021-2024)</li>
+        </ul></td>
+      <td><p>Kemampuan : </p>
+        <ul>
+          <li>Team Work</li>
+          <li>Adaptasi Perubahan</li>
+          <li>Manajemen Waktu</li>
+          <li>Microsoft Office, Canva, Adobe</li>
+          <li>Komunikasi</li>
+          <li>Analisis</li>
+          <li>Mampu bekerja dalam tekanan</li>
+        </ul></td>
+    </tr>
+  </tbody>
+</table>
+</body>
+</html>
